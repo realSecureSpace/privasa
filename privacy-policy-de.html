@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - Privasa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.8; color: #333; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #6366f1; font-size: 2em; margin-bottom: 10px; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+        .date { text-align: center; color: #999; font-size: 0.9em; margin-bottom: 40px; }
+        h2 { color: #4f46e5; font-size: 1.5em; margin-top: 30px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e0e7ff; }
+        h3 { color: #4338ca; font-size: 1.2em; margin-top: 20px; margin-bottom: 10px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul { margin-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .highlight { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; color: #6b7280; }
+        .language-selector { text-align: center; margin: 30px 0; padding: 20px; background: #f3f4f6; border-radius: 8px; }
+        .language-selector a { display: inline-block; margin: 5px 8px; padding: 8px 16px; background: #6366f1; color: white; text-decoration: none; border-radius: 20px; font-size: 0.85em; transition: background 0.3s; }
+        .language-selector a:hover { background: #4f46e5; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 1.5em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Datenschutzerklärung</h1>
+        <p class="subtitle"><strong>Privasa - Privates Tagebuch</strong></p>
+        <p class="date">Inkrafttreten: 7. April 2026 | Zuletzt aktualisiert: 16. April 2026</p>
+
+        <div class="language-selector">
+            <p>🌐 Sprache wählen:</p>
+            <a href="privacy-policy.html">English</a>
+            <a href="privacy-policy-zh.html">中文</a>
+            <a href="privacy-policy-ja.html">日本語</a>
+            <a href="privacy-policy-ko.html">한국어</a>
+            <a href="privacy-policy-fr.html">Français</a>
+            <a href="privacy-policy-de.html">Deutsch</a>
+            <a href="privacy-policy-es.html">Español</a>
+            <a href="privacy-policy-ru.html">Русский</a>
+            <a href="privacy-policy-pt.html">Português</a>
+            <a href="privacy-policy-ar.html">العربية</a>
+            <a href="privacy-policy-hi.html">हिन्दी</a>
+            <a href="privacy-policy-fa.html">فارسی</a>
+        </div>
+
+        <h2>📱 Unser Datenschutzversprechen</h2>
+        <h3>Null Datenerhebung</h3>
+        <p>Diese Anwendung <span class="highlight">erhebt, überträgt oder speichert</span> keine Benutzerdaten auf externen Servern. Alle Daten werden lokal auf Ihrem Gerät gespeichert.</p>
+        <h3>Null Netzwerkverbindung</h3>
+        <p>Diese Anwendung beantragt keine Internetberechtigung und kann nicht auf das Internet zugreifen, wodurch die Möglichkeit eines Datenlecks über das Netzwerk fundamental ausgeschlossen wird. Alle Funktionen (Notizen, Check-in, Alben, To-Dos, Kalender, Dateiverwaltung usw.) funktionieren vollständig offline.</p>
+
+        <h2>🛡️ Datenspeicherung und Verschlüsselung</h2>
+        <h3>Lokale Speicherung</h3>
+        <ul>
+            <li>Alle Notizinhalte, Anhänge (Fotos, Videos, Audio, Dateien), To-Dos, Kalenderereignisse und Check-in-Einträge werden lokal auf Ihrem Gerät gespeichert</li>
+            <li>Die Daten werden im privaten Verzeichnis der App gespeichert und können von anderen Apps nicht abgerufen werden</li>
+            <li>Wir verwenden keine Cloud-Server, um Ihre Daten zu speichern</li>
+            <li>Die App unterstützt den Mehrbenutzermodus; die Daten jedes Kontos sind isoliert und unabhängig verschlüsselt</li>
+        </ul>
+        <h3>Ende-zu-Ende-Verschlüsselung</h3>
+        <ul>
+            <li>Alle Benutzerdaten werden mit dem Algorithmus <strong>AES-256-GCM</strong> verschlüsselt</li>
+            <li>Die Verschlüsselungsschlüssel werden aus Ihrem Passwort mit dem Algorithmus <strong>PBKDF2</strong> abgeleitet</li>
+            <li>Die Verschlüsselungsschlüssel werden nur im sicheren Speicherbereich des Geräts gespeichert (iOS Keychain / Android Keystore)</li>
+            <li>Die Sitzungsschlüssel werden nur im Speicher gehalten, während die App entsperrt ist, und beim Sperren automatisch gelöscht</li>
+        </ul>
+        <h3>Biometrische Authentifizierung</h3>
+        <ul>
+            <li>Sie können Fingerabdruck oder Gesichtserkennung verwenden, um die App schnell zu entsperren</li>
+            <li>Biometrische Daten werden vom Betriebssystem verwaltet; diese App erhält nur das Verifizierungsergebnis</li>
+            <li>Wir greifen niemals auf Ihre rohen biometrischen Daten zu, speichern oder übertragen sie nicht</li>
+        </ul>
+
+        <h2>📝 App-Funktionen und Datenverarbeitung</h2>
+        <h3>Notizen und Rich-Text-Bearbeitung</h3>
+        <p>Sie können Tagebücher, Markdown-Notizen, To-Do-Listen und Dateiverwaltungsaufzeichnungen erstellen. Alle Inhalte werden nur lokal gespeichert und gerendert und niemals auf einen Server hochgeladen.</p>
+        <h3>Album und Medienverwaltung</h3>
+        <p>Die App unterstützt das Anhängen von Fotos, Videos und Audiodateien an Notizen oder Check-ins. Alle Mediendateien werden vor der lokalen Speicherung verschlüsselt und bei der Anzeige in der App in Echtzeit entschlüsselt.</p>
+        <h3>Check-in und Kalender</h3>
+        <p>Check-in-Einträge und Kalenderdaten werden vollständig lokal generiert und gespeichert. Die Kalenderansicht liest nur die Erstellungszeit lokaler Notizen und bezieht keine Onlinesynchronisierungsdienste mit ein.</p>
+        <h3>Papierkorb (Weiches Löschen)</h3>
+        <p>Gelöschte Notizen und Daten werden zunächst in einen lokalen Papierkorb verschoben, wo Sie sie wiederherstellen oder dauerhaft löschen können. Die Papierkorbdaten werden ebenfalls lokal verschlüsselt gespeichert, und wir greifen nicht auf Ihre gelöschten Inhalte zu.</p>
+
+        <h2>📤 Export, Import und Teilen</h2>
+        <h3>Verschlüsselter Export und Backup</h3>
+        <ul>
+            <li>Sie können Ihre Daten als verschlüsselte ZIP-Backup-Datei exportieren</li>
+            <li>Exportierte Dateien werden mit AES-256-GCM und dem Passwort Ihres aktuellen Kontos verschlüsselt</li>
+            <li>Exportierte Dateien werden an einem von Ihnen gewählten Ort auf Ihrem Gerät gespeichert (z. B. Dateimanager)</li>
+        </ul>
+        <h3>Import</h3>
+        <ul>
+            <li>Sie können lokale verschlüsselte Backup-Dateien oder Textdateien (.txt / .md) in die App importieren</li>
+            <li>Der Importvorgang wird vollständig lokal durchgeführt; der Dateiinhalt wird niemals ins Netzwerk hochgeladen</li>
+        </ul>
+        <h3>Teilen</h3>
+        <ul>
+            <li>Wenn Sie eine Notiz oder einen Anhang teilen möchten, ruft die App die native Freigabe des Betriebssystems auf (z. B. iOS-Share-Sheet / Android-Systemfreigabe)</li>
+            <li>Die Freigabe wird vom Betriebssystem und der von Ihnen ausgewählten Drittanbieter-App verarbeitet; diese App greift nicht direkt auf das Internet zu, um Daten zu senden</li>
+        </ul>
+
+        <h2>💎 In-App-Käufe</h2>
+        <p>Das Upgrade auf die Pro-Version (Einmalkauf) wird über die nativen In-App-Kaufsysteme des Apple App Store (iOS) und Google Play (Android) angeboten:</p>
+        <ul>
+            <li>Kauftransaktionen werden von Apple oder Google abgewickelt; wir <strong>erheben oder speichern keine</strong> Zahlungsinformationen (wie Kreditkartennummern oder Rechnungsadressen)</li>
+            <li>Wir speichern nur den Freischaltstatus (ob Pro gekauft wurde) im lokalen sicheren Speicher, um die entsprechenden Funktionen auf diesem Gerät freizuschalten</li>
+            <li>Die Wiederherstellung von Käufen (Restore Purchases) kommuniziert direkt mit Apple/Google. Wir erhalten keine Informationen zu Ihrer Apple-ID oder Ihrem Google-Konto</li>
+        </ul>
+
+        <h2>❌ Daten, die wir nicht erheben</h2>
+        <ul>
+            <li>❌ Personenbezogene Daten (Name, E-Mail, Telefonnummer usw.)</li>
+            <li>❌ Gerätekennungen oder Werbe-IDs</li>
+            <li>❌ Standortinformationen</li>
+            <li>❌ Nutzungsstatistiken oder Analysedaten</li>
+            <li>❌ Absturzprotokolle (es sei denn, Sie senden sie aktiv über Systemkanäle)</li>
+            <li>❌ Über das Netzwerk übertragene Daten</li>
+            <li>❌ Zahlungsinformationen (Kreditkarte, Rechnungsadresse usw.)</li>
+        </ul>
+
+        <h2>🔐 Berechtigungen Erklärt</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+            <tr style="background: #f3f4f6;">
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Berechtigung</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Zweck</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Erforderlich</th>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Face ID / Touch ID / Fingerabdruck</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Schnelles Entsperren der App</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">Fotobibliothek</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Bilder oder Videos aus dem Album in Notizen/Check-ins importieren</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Kamera</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Fotos aufnehmen oder Videos aufzeichnen (Check-in- und Album-Funktionen)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">Mikrofon</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Audio während der Videoaufzeichnung aufnehmen (Check-in- und Album-Funktionen)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Lokaler Dateispeicher</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Verschlüsselte Notizen, Anhänge und Backups speichern</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Erforderlich</td>
+            </tr>
+        </table>
+
+        <h2>🌍 Regionale Datenschutzrechte</h2>
+        <h3>Rechte von EU-Nutzern (DSGVO)</h3>
+        <ul>
+            <li><strong>Recht auf Information</strong> - Verstehen der Datenverarbeitung durch diese Richtlinie</li>
+            <li><strong>Recht auf Zugang</strong> - Jederzeit auf alle Ihre Daten zugreifen</li>
+            <li><strong>Recht auf Berichtigung</strong> - Ihre Daten jederzeit bearbeiten und korrigieren</li>
+            <li><strong>Recht auf Löschung</strong> - Alle Daten durch Deinstallation der App löschen</li>
+            <li><strong>Recht auf Datenübertragbarkeit</strong> - Über die Exportfunktion eine verschlüsselte Kopie Ihrer Daten erhalten</li>
+        </ul>
+        <h3>Rechte von kalifornischen Nutzern (CCPA)</h3>
+        <ul>
+            <li><strong>Recht zu wissen</strong> - Wir sammeln keine persönlichen Informationen</li>
+            <li><strong>Recht auf Löschung</strong> - Deinstallieren Sie die App, um die Daten zu löschen</li>
+            <li><strong>Opt-out-Recht</strong> - Wir verkaufen keine Daten</li>
+            <li><strong>Nichtdiskriminierungsrecht</strong> - Alle Grundfunktionen sind kostenlos verfügbar</li>
+        </ul>
+
+        <h2>📞 Kontaktieren Sie uns</h2>
+        <p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte:</p>
+        <p style="text-align: center; font-size: 1.1em; margin: 20px 0;">
+            📧 <a href="mailto:Secure-Space@outlook.com" style="color: #6366f1;">Secure-Space@outlook.com</a>
+        </p>
+
+        <div class="footer">
+            <p>© 2026 Privasa. Alle Rechte vorbehalten.</p>
+            <p>Zuletzt aktualisiert: 16. April 2026</p>
+        </div>
+    </div>
+</body>
+</html>

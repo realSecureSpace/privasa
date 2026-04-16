@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Privasa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8; color: #333; background: #f5f5f5; padding: 20px;
+        }
+        .container {
+            max-width: 800px; margin: 0 auto; background: #fff; padding: 40px;
+            border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #6366f1; font-size: 2em; margin-bottom: 10px; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+        .date { text-align: center; color: #999; font-size: 0.9em; margin-bottom: 40px; }
+        h2 { color: #4f46e5; font-size: 1.5em; margin-top: 30px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e0e7ff; }
+        h3 { color: #4338ca; font-size: 1.2em; margin-top: 20px; margin-bottom: 10px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul { margin-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .highlight { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; color: #6b7280; }
+        .language-selector { text-align: center; margin: 30px 0; padding: 20px; background: #f3f4f6; border-radius: 8px; }
+        .language-selector a { display: inline-block; margin: 5px 8px; padding: 8px 16px; background: #6366f1; color: white; text-decoration: none; border-radius: 20px; font-size: 0.85em; transition: background 0.3s; }
+        .language-selector a:hover { background: #4f46e5; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 1.5em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Privacy Policy</h1>
+        <p class="subtitle"><strong>Privasa - Private Diary</strong></p>
+        <p class="date">Effective Date: April 7, 2026 | Last Updated: April 16, 2026</p>
+
+        <div class="language-selector">
+            <p>🌐 Select Language:</p>
+            <a href="privacy-policy.html">English</a>
+            <a href="privacy-policy-zh.html">中文</a>
+            <a href="privacy-policy-ja.html">日本語</a>
+            <a href="privacy-policy-ko.html">한국어</a>
+            <a href="privacy-policy-fr.html">Français</a>
+            <a href="privacy-policy-de.html">Deutsch</a>
+            <a href="privacy-policy-es.html">Español</a>
+            <a href="privacy-policy-ru.html">Русский</a>
+            <a href="privacy-policy-pt.html">Português</a>
+            <a href="privacy-policy-ar.html">العربية</a>
+            <a href="privacy-policy-hi.html">हिन्दी</a>
+            <a href="privacy-policy-fa.html">فارسی</a>
+        </div>
+
+        <h2>📱 Our Privacy Commitment</h2>
+        <h3>Zero Data Collection</h3>
+        <p>This application <span class="highlight">does not collect, transmit, or store</span> any user data on external servers. All data is stored locally on your device.</p>
+        
+        <h3>Zero Network Connection</h3>
+        <p>This application does not request Internet Permission and cannot access the internet, fundamentally eliminating the possibility of data leakage via the network. All features (notes, check-in, albums, to-dos, calendar, file management, etc.) operate entirely offline.</p>
+
+        <h2>🛡️ Data Storage and Encryption</h2>
+        <h3>Local Storage</h3>
+        <ul>
+            <li>All note content, attachments (photos, videos, audio, files), to-dos, calendar events, and check-in records are stored locally on your device</li>
+            <li>Data is stored in the application's private directory and cannot be accessed by other apps</li>
+            <li>We do not use any cloud servers to store your data</li>
+            <li>The app supports multi-account mode; each account's data is isolated and independently encrypted</li>
+        </ul>
+
+        <h3>End-to-End Encryption</h3>
+        <ul>
+            <li>All user data is encrypted using the <strong>AES-256-GCM</strong> algorithm</li>
+            <li>Encryption keys are derived from your password using the <strong>PBKDF2</strong> algorithm</li>
+            <li>Encryption keys are stored only in the device's secure storage area (iOS Keychain / Android Keystore)</li>
+            <li>Session keys are kept in memory only while the app is unlocked and are automatically cleared upon lock</li>
+        </ul>
+
+        <h3>Biometric Authentication</h3>
+        <ul>
+            <li>You may choose to use fingerprint or facial recognition to quickly unlock the app</li>
+            <li>Biometric data is managed by the operating system; this app only receives the verification result (success/fail)</li>
+            <li>We never access, store, or transmit your raw biometric data</li>
+        </ul>
+
+        <h2>📝 App Features and Data Processing</h2>
+        <h3>Notes and Rich Text Editing</h3>
+        <p>You can create diaries, Markdown notes, to-do lists (Todo), and file management records within the app. All content is stored and rendered locally only and is never uploaded to any server.</p>
+        
+        <h3>Album and Media Management</h3>
+        <p>The app supports attaching photos, videos, and audio files to notes or check-in records. All media files are encrypted before being saved to local storage and are decrypted in real time for in-app viewing.</p>
+        
+        <h3>Check-in and Calendar</h3>
+        <p>Check-in records and calendar data are generated and stored entirely locally. The calendar view only reads the creation time of local notes and does not involve any network calendar sync services.</p>
+        
+        <h3>Trash (Soft Delete)</h3>
+        <p>Deleted notes and data are moved to a local trash folder first, where you can restore or permanently delete them. Trash data is also stored with local encryption, and we do not access your deleted content.</p>
+
+        <h2>📤 Export, Import, and Sharing</h2>
+        <h3>Encrypted Export and Backup</h3>
+        <ul>
+            <li>You can export your data as an encrypted ZIP backup file</li>
+            <li>Exported files are encrypted using AES-256-GCM with your current account password</li>
+            <li>Exported files are saved to a location of your choice on your device (e.g., file manager)</li>
+        </ul>
+
+        <h3>Import</h3>
+        <ul>
+            <li>You can import local encrypted backup files or plain text (.txt / .md) files into the app</li>
+            <li>The import process is completed entirely locally; file contents are never uploaded to the network</li>
+        </ul>
+
+        <h3>Sharing</h3>
+        <ul>
+            <li>When you choose to share a note or attachment, the app invokes the operating system's native sharing panel (such as iOS Share Sheet / Android system share)</li>
+            <li>Sharing behavior is handled by the OS and the third-party app you select; this app does not directly access the internet to send data</li>
+        </ul>
+
+        <h2>💎 In-App Purchases</h2>
+        <p>The app offers a Pro version upgrade (one-time purchase) through the native in-app purchase systems of the Apple App Store (iOS) and Google Play (Android).:</p>
+        <ul>
+            <li>Purchase transactions are processed by Apple or Google; we <strong>do not collect or store</strong> any payment information (such as credit card numbers or billing addresses)</li>
+            <li>We only record your unlock status (whether Pro has been purchased) in local secure storage to unlock corresponding features on this device</li>
+            <li>Restore Purchases operations communicate directly with Apple/Google servers; we do not obtain your Apple ID or Google account information</li>
+        </ul>
+
+        <h2>❌ Data We Do Not Collect</h2>
+        <ul>
+            <li>❌ Personal identification information (name, email, phone number, etc.)</li>
+            <li>❌ Device identifiers or advertising IDs</li>
+            <li>❌ Location information</li>
+            <li>❌ Usage statistics or analytics data</li>
+            <li>❌ Crash logs (unless you actively send them through system channels)</li>
+            <li>❌ Any network-transmitted data</li>
+            <li>❌ Payment information (credit card, billing address, etc.)</li>
+        </ul>
+
+        <h2>🔐 Permissions Explained</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+            <tr style="background: #f3f4f6;">
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Permission</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Purpose</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Required</th>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Face ID / Touch ID / Fingerprint</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Quickly unlock the app</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">Photo Library Access</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Import images or videos from the album into notes/check-ins</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Camera Access</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Take photos or record videos (check-in, album features)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">Microphone Access</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Synchronize audio capture when recording videos (check-in, album features)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Local File Storage</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Save encrypted notes, attachments, and backup files locally</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Required</td>
+            </tr>
+        </table>
+
+        <h2>🌍 Regional Privacy Rights</h2>
+        <h3>EU User Rights (GDPR)</h3>
+        <ul>
+            <li><strong>Right to be informed</strong> - Understand data processing through this policy</li>
+            <li><strong>Right of access</strong> - Access all your data at any time</li>
+            <li><strong>Right to rectification</strong> - Edit and modify your data at any time</li>
+            <li><strong>Right to erasure</strong> - Delete all data by uninstalling the app</li>
+            <li><strong>Right to data portability</strong> - Obtain an encrypted copy of your data through the export feature</li>
+        </ul>
+
+        <h3>California User Rights (CCPA)</h3>
+        <ul>
+            <li><strong>Right to know</strong> - We do not collect any personal information</li>
+            <li><strong>Right to delete</strong> - Uninstall the app to delete data</li>
+            <li><strong>Right to opt-out</strong> - We do not sell any data</li>
+            <li><strong>Right to non-discrimination</strong> - All basic features are available for free</li>
+        </ul>
+
+        <h2>📞 Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <p style="text-align: center; font-size: 1.1em; margin: 20px 0;">
+            📧 <a href="mailto:Secure-Space@outlook.com" style="color: #6366f1;">Secure-Space@outlook.com</a>
+        </p>
+
+        <div class="footer">
+            <p>© 2026 Privasa. All rights reserved.</p>
+            <p>Last Updated: April 16, 2026</p>
+        </div>
+    </div>
+</body>
+</html>

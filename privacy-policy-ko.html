@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보 처리방침 - Privasa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.8; color: #333; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #6366f1; font-size: 2em; margin-bottom: 10px; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+        .date { text-align: center; color: #999; font-size: 0.9em; margin-bottom: 40px; }
+        h2 { color: #4f46e5; font-size: 1.5em; margin-top: 30px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e0e7ff; }
+        h3 { color: #4338ca; font-size: 1.2em; margin-top: 20px; margin-bottom: 10px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul { margin-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .highlight { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; color: #6b7280; }
+        .language-selector { text-align: center; margin: 30px 0; padding: 20px; background: #f3f4f6; border-radius: 8px; }
+        .language-selector a { display: inline-block; margin: 5px 8px; padding: 8px 16px; background: #6366f1; color: white; text-decoration: none; border-radius: 20px; font-size: 0.85em; transition: background 0.3s; }
+        .language-selector a:hover { background: #4f46e5; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 1.5em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 개인정보 처리방침</h1>
+        <p class="subtitle"><strong>Privasa - 프라이빗 다이어리</strong></p>
+        <p class="date">시행일: 2026년 4월 7일 | 최종 수정일: 2026년 4월 16일</p>
+
+        <div class="language-selector">
+            <p>🌐 언어 선택:</p>
+            <a href="privacy-policy.html">English</a>
+            <a href="privacy-policy-zh.html">中文</a>
+            <a href="privacy-policy-ja.html">日本語</a>
+            <a href="privacy-policy-ko.html">한국어</a>
+            <a href="privacy-policy-fr.html">Français</a>
+            <a href="privacy-policy-de.html">Deutsch</a>
+            <a href="privacy-policy-es.html">Español</a>
+            <a href="privacy-policy-ru.html">Русский</a>
+            <a href="privacy-policy-pt.html">Português</a>
+            <a href="privacy-policy-ar.html">العربية</a>
+            <a href="privacy-policy-hi.html">हिन्दी</a>
+            <a href="privacy-policy-fa.html">فارسی</a>
+        </div>
+
+        <h2>📱 우리의 개인정보 보호 약속</h2>
+        <h3>제로 데이터 수집</h3>
+        <p>본 애플리케이션은 어떠한 사용자 데이터도 외부 서버에 <span class="highlight">수집, 전송 또는 저장</span>하지 않습니다. 모든 데이터는 사용자의 기기에 로컬로 저장됩니다.</p>
+        <h3>제로 네트워크 연결</h3>
+        <p>본 애플리케이션은 인터넷 권한을 요청하지 않으며 인터넷에 접근할 수 없어, 네트워크를 통한 데이터 유출 가능성을 근본적으로 차단합니다. 모든 기능(메모, 체크인, 앨범, 할 일, 캘린더, 파일 관리 등)은 완전히 오프라인으로 작동합니다.</p>
+
+        <h2>🛡️ 데이터 저장 및 암호화</h2>
+        <h3>로컬 저장</h3>
+        <ul>
+            <li>모든 메모 내용, 첨부 파일(사진, 동영상, 음성, 파일), 할 일, 캘린더 이벤트, 체크인 기록은 사용자의 기기에 로컬로 저장됩니다</li>
+            <li>데이터는 애플리케이션의 개인 디렉터리에 저장되며 다른 앱에서 접근할 수 없습니다</li>
+            <li>우리는 클라우드 서버를 사용하여 사용자의 데이터를 저장하지 않습니다</li>
+            <li>본 앱은 다중 계정 모드를 지원하며, 각 계정의 데이터는 격리되어 독립적으로 암호화됩니다</li>
+        </ul>
+        <h3>종단간 암호화</h3>
+        <ul>
+            <li>모든 사용자 데이터는 <strong>AES-256-GCM</strong> 알고리즘으로 암호화됩니다</li>
+            <li>암호화 키는 사용자의 비밀번호에서 <strong>PBKDF2</strong> 알고리즘을 사용하여 파생됩니다</li>
+            <li>암호화 키는 기기의 안전한 저장 영역(iOS 키체인 / Android 키스토어)에만 저장됩니다</li>
+            <li>세션 키는 앱이 잠금 해제 상태인 동안에만 메모리에 유지되며, 잠금 시 자동으로 지워집니다</li>
+        </ul>
+        <h3>생체 인증</h3>
+        <ul>
+            <li>지문 또는 얼굴 인식을 사용하여 앱을 빠르게 잠금 해제할 수 있습니다</li>
+            <li>생체 데이터는 운영 체제에서 관리하며, 본 앱은 인증 결과만 수신합니다</li>
+            <li>우리는 원시 생체 데이터에 접근하거나 저장하거나 전송하지 않습니다</li>
+        </ul>
+
+        <h2>📝 앱 기능 및 데이터 처리</h2>
+        <h3>메모 및 서식 있는 텍스트 편집</h3>
+        <p>일기, Markdown 메모, 할 일 목록(To-Do), 파일 관리 기록을 만들 수 있습니다. 모든 콘텐츠는 로컬에서만 저장 및 렌더링되며, 서버에 업로드되지 않습니다.</p>
+        <h3>앨범 및 미디어 관리</h3>
+        <p>메모 또는 체크인에 사진, 동영상, 음성 파일을 첨부할 수 있습니다. 모든 미디어 파일은 로컬 저장 전에 암호화되며, 앱 내에서 볼 때 실시간으로 복호화됩니다.</p>
+        <h3>체크인 및 캘린더</h3>
+        <p>체크인 기록과 캘린더 데이터는 완전히 로컬에서 생성 및 저장됩니다. 캘린더 보기는 로컬 메모의 생성 시간만 읽으며, 네트워크 캘린더 동기화 서비스와는 관련이 없습니다.</p>
+        <h3>휴지통(소프트 삭제)</h3>
+        <p>삭제된 메모와 데이터는 복원 또는 영구 삭제를 위해 로컬의 암호화된 휴지통 폴터로 이동됩니다. 휴지통 데이터 역시 로컬에서 암호화되어 저장되며, 우리는 삭제된 콘텐츠에 접근하지 않습니다.</p>
+
+        <h2>📤 날내기, 가져오기 및 공유</h2>
+        <h3>암호화 날내기 및 백업</h3>
+        <ul>
+            <li>데이터를 암호화된 ZIP 백업 파일로 날볼 수 있습니다</li>
+            <li>날볼 파일은 현재 계정 비밀번호를 사용하여 AES-256-GCM으로 암호화됩니다</li>
+            <li>날볼 파일은 기기에서 선택한 위치에 저장됩니다(파일 관리자 등)</li>
+        </ul>
+        <h3>가져오기</h3>
+        <ul>
+            <li>로컬의 암호화된 백업 파일 또는 텍스트 파일(.txt / .md)을 앱으로 가져올 수 있습니다</li>
+            <li>가져오기 처리는 완전히 로컬에서 이루어지며, 파일 내용은 네트워크에 업로드되지 않습니다</li>
+        </ul>
+        <h3>공유</h3>
+        <ul>
+            <li>메모나 첨부 파일을 공유할 때 앱은 OS의 네이티브 공유 패널(iOS 공유 시트 / Android 시스템 공유)을 호출합니다</li>
+            <li>공유 동작은 OS 및 선택한 타사 앱에 의해 처리되며, 본 앱은 인터넷을 통해 데이터를 직접 전송하지 않습니다</li>
+        </ul>
+
+        <h2>💎 인앱 구매</h2>
+        <p>Pro 버전 업그레이드(일회성 구매)가 Apple App Store(iOS) 및 Google Play(Android)의 네이티브 인앱 구매 시스템을 통해 제공됩니다:</p>
+        <ul>
+            <li>구매 거래는 Apple 또는 Google에서 처리합니다. 우리는 <strong>결제 정보(신용카드 번호, 청구지 주소 등)를 수집하거나 저장하지 않습니다</strong></li>
+            <li>잠금 해제 상태(Pro 구매 여부)만 로컬 안전한 저장소에 기록하여 해당 기기에서 기능을 해제하는 데 사용합니다</li>
+            <li>구매 복원(Restore Purchases)은 Apple/Google과 직접 통신합니다. 우리는 귀하의 Apple ID나 Google 계정 정보를 얻지 않습니다</li>
+        </ul>
+
+        <h2>❌ 수집하지 않는 데이터</h2>
+        <ul>
+            <li>❌ 개인 식별 정보(이름, 이메일, 전화번호 등)</li>
+            <li>❌ 기기 식별자 또는 광고 ID</li>
+            <li>❌ 위치 정보</li>
+            <li>❌ 사용 통계 및 분석 데이터</li>
+            <li>❌ 충돌 로그(사용자가 능동적으로 전송한 경우 제외)</li>
+            <li>❌ 네트워크를 통해 전송되는 데이터</li>
+            <li>❌ 결제 정보(신용카드, 청구지 주소 등)</li>
+        </ul>
+
+        <h2>🔐 권한 설명</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+            <tr style="background: #f3f4f6;">
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">권한</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">목적</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">필수 여부</th>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Face ID / Touch ID / 지문</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">앱의 빠른 잠금 해제</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">선택</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">사진 라이브러리</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">앨범에서 이미지 및 동영상을 메모/체크인으로 가져오기</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">선택</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">친구</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">사진 촬영 및 동영상 녹화(체크인, 앨범 기능)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">선택</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">마이크</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">동영상 녹화 시 오디오 캡처(체크인, 앨범 기능)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">선택</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">로컬 파일 저장</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">암호화된 메모, 첨부 파일, 백업 저장</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">필수</td>
+            </tr>
+        </table>
+
+        <h2>🌍 지역별 개인정보 권리</h2>
+        <h3>EU 사용자 권리(GDPR)</h3>
+        <ul>
+            <li><strong>정보 제공 요구권</strong> - 본 정책을 통해 데이터 처리를 이해할 수 있는 권리</li>
+            <li><strong>접근권</strong> - 언제든 모든 데이터에 접근할 수 있는 권리</li>
+            <li><strong>정정권</strong> - 언제든 데이터를 편집·수정할 수 있는 권리</li>
+            <li><strong>삭제권</strong> - 앱을 제거하여 모든 데이터를 삭제할 수 있는 권리</li>
+            <li><strong>데이터 이동권</strong> - 날볼 기능을 통해 암호화된 데이터 사본을 얻을 수 있는 권리</li>
+        </ul>
+        <h3>캘리포니아 사용자 권리(CCPA)</h3>
+        <ul>
+            <li><strong>알 권리</strong> - 우리는 개인 정보를 수집하지 않습니다</li>
+            <li><strong>삭제 권리</strong> - 앱을 제거하면 데이터가 삭제됩니다</li>
+            <li><strong>거부 권리</strong> - 우리는 어떠한 데이터도 판매하지 않습니다</li>
+            <li><strong>차별 금지 권리</strong> - 모든 기본 기능은 물론 물로 이용할 수 있습니다</li>
+        </ul>
+
+        <h2>📞 문의하기</h2>
+        <p>이 개인정보 처리방침에 대해 궁금한 점이 있으시면 아래로 연락 주십시오:</p>
+        <p style="text-align: center; font-size: 1.1em; margin: 20px 0;">
+            📧 <a href="mailto:Secure-Space@outlook.com" style="color: #6366f1;">Secure-Space@outlook.com</a>
+        </p>
+
+        <div class="footer">
+            <p>© 2026 Privasa. All rights reserved.</p>
+            <p>최종 수정일: 2026년 4월 16일</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية - Privasa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.8; color: #333; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #6366f1; font-size: 2em; margin-bottom: 10px; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+        .date { text-align: center; color: #999; font-size: 0.9em; margin-bottom: 40px; }
+        h2 { color: #4f46e5; font-size: 1.5em; margin-top: 30px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e0e7ff; }
+        h3 { color: #4338ca; font-size: 1.2em; margin-top: 20px; margin-bottom: 10px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul { margin-right: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .highlight { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; color: #6b7280; }
+        .language-selector { text-align: center; margin: 30px 0; padding: 20px; background: #f3f4f6; border-radius: 8px; }
+        .language-selector a { display: inline-block; margin: 5px 8px; padding: 8px 16px; background: #6366f1; color: white; text-decoration: none; border-radius: 20px; font-size: 0.85em; transition: background 0.3s; }
+        .language-selector a:hover { background: #4f46e5; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 1.5em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 سياسة الخصوصية</h1>
+        <p class="subtitle"><strong>Privasa - يوميات خاصة</strong></p>
+        <p class="date">تاريخ السريان: 7 أبريل 2026 | آخر تحديث: 16 أبريل 2026</p>
+
+        <div class="language-selector">
+            <p>🌐 اختر اللغة:</p>
+            <a href="privacy-policy.html">English</a>
+            <a href="privacy-policy-zh.html">中文</a>
+            <a href="privacy-policy-ja.html">日本語</a>
+            <a href="privacy-policy-ko.html">한국어</a>
+            <a href="privacy-policy-fr.html">Français</a>
+            <a href="privacy-policy-de.html">Deutsch</a>
+            <a href="privacy-policy-es.html">Español</a>
+            <a href="privacy-policy-ru.html">Русский</a>
+            <a href="privacy-policy-pt.html">Português</a>
+            <a href="privacy-policy-ar.html">العربية</a>
+            <a href="privacy-policy-hi.html">हिन्दी</a>
+            <a href="privacy-policy-fa.html">فارسی</a>
+        </div>
+
+        <h2>📱 التزامنا بالخصوصية</h2>
+        <h3>عدم جمع البيانات</h3>
+        <p>هذا التطبيق <span class="highlight">لا يجمع أو ينقل أو يخزن</span> أي بيانات للمستخدم على خوادم خارجية. جميع البيانات مخزنة محليًا على جهازك.</p>
+        <h3>عدم الاتصال بالشبكة</h3>
+        <p>هذا التطبيق لا يطلب إذن الوصول إلى الإنترنت ولا يمكنه الوصول إليه، مما يلغي إمكانية تسرب البيانات عبر الشبكة من الأساس. جميع الميزات (الملاحظات، تسجيل الدخول، الألبومات، المهام، التقويم، إدارة الملفات، إلخ) تعمل بالكامل دون اتصال.</p>
+
+        <h2>🛡️ تخزين البيانات وتشفيرها</h2>
+        <h3>التخزين المحلي</h3>
+        <ul>
+            <li>جميع محتويات الملاحظات والمرفقات (الصور ومقاطع الفيديو والصوت والملفات) والمهام وأحداث التقويم وسجلات تسجيل الدخول مخزنة محليًا على جهازك</li>
+            <li>يتم تخزين البيانات في الدليل الخاص بالتطبيق ولا يمكن للتطبيقات الأخرى الوصول إليها</li>
+            <li>نحن لا نستخدم أي خوادم سحابية لتخزين بياناتك</li>
+            <li>يدعم التطبيق وضع الحسابات المتعددة؛ بيانات كل حساب معزولة ومشفرة بشكل مستقل</li>
+        </ul>
+        <h3>التشفير من طرف إلى طرف</h3>
+        <ul>
+            <li>جميع بيانات المستخدم مشفرة باستخدام خوارزمية <strong>AES-256-GCM</strong></li>
+            <li>يتم اشتقاق مفاتيح التشفير من كلمة المرور الخاصة بك باستخدام خوارزمية <strong>PBKDF2</strong></li>
+            <li>يتم تخزين المفاتيح فقط في منطقة التخزين الآمنة للجهاز (iOS Keychain / Android Keystore)</li>
+            <li>يتم الاحتفاظ بمفاتيح الجلسة في الذاكرة فقط أثناء فتح التطبيق ويتم مسحها تلقائيًا عند القفل</li>
+        </ul>
+        <h3>المصادقة البيومترية</h3>
+        <ul>
+            <li>يمكنك اختيار استخدام بصمة الإصبع أو التعرف على الوجه لفتح التطبيق بسرعة</li>
+            <li>تتم إدارة البيانات البيومترية بواسطة نظام التشغيل؛ لا يتلقى هذا التطبيق سوى نتيجة التحقق</li>
+            <li>لا نصل أبدًا إلى بياناتك البيومترية الخام، ولا نخزنها، ولا ننقلها</li>
+        </ul>
+
+        <h2>📝 ميزات التطبيق ومعالجة البيانات</h2>
+        <h3>الملاحظات وتحرير النصوص الغنية</h3>
+        <p>يمكنك إنشاء يوميات وملاحظات Markdown وقوائم مهام وسجلات إدارة الملفات. يتم تخزين جميع المحتويات وعرضها محليًا فقط ولا يتم تحميلها أبدًا على خادم.</p>
+        <h3>الألبوم وإدارة الوسائط</h3>
+        <p>يدعم التطبيق إرفاق الصور ومقاطع الفيديو وملفات الصوت بالملاحظات أو سجلات تسجيل الدخول. يتم تشفير جميع ملفات الوسائط قبل حفظها في التخزين المحلي وفك تشفيرها في الوقت الفعلي للعرض داخل التطبيق.</p>
+        <h3>تسجيل الدخول والتقويم</h3>
+        <p>يتم إنشاء سجلات تسجيل الدخول وحفظها بالكامل محليًا. يقرأ عرض التقويم وقت إنشاء الملاحظات المحلية فقط ولا ينطوي على أي خدمة لمزامنة التقويم عبر الإنترنت.</p>
+        <h3>سلة المحذوفات (الحذف الناعم)</h3>
+        <p>تنتقل الملاحظات والبيانات المحذوفة أولاً إلى سلة محذوفات محلية، حيث يمكنك استعادتها أو حذفها نهائيًا. يتم أيضًا تخزين بيانات سلة المحذوفات بتشفير محلي، ولا نصل إلى المحتوى المحذوف.</p>
+
+        <h2>📤 التصدير والاستيراد والمشاركة</h2>
+        <h3>التصدير المشفر والنسخ الاحتياطي</h3>
+        <ul>
+            <li>يمكنك تصدير بياناتك كملف نسخ احتياطي ZIP مشفر</li>
+            <li>يتم تشفير الملفات المصدرة باستخدام AES-256-GCM باستخدام كلمة مرور حسابك الحالي</li>
+            <li>يتم حفظ الملفات المصدرة في الموقع الذي تختاره على جهازك (على سبيل المثال، مدير الملفات)</li>
+        </ul>
+        <h3>الاستيراد</h3>
+        <ul>
+            <li>يمكنك استيراد ملفات النسخ الاحتياطي المشفرة المحلية أو ملفات النص (.txt / .md) إلى التطبيق</li>
+            <li>تتم عملية الاستيراد بالكامل محليًا؛ لا يتم أبدًا تحميل محتوى الملفات على الشبكة</li>
+        </ul>
+        <h3>المشاركة</h3>
+        <ul>
+            <li>عندما تختار مشاركة ملاحظة أو مرفق، يستدعي التطبيق لوحة المشاركة الأصلية لنظام التشغيل (مثل iOS Share Sheet / مشاركة نظام Android)</li>
+            <li>يتم معالجة سلوك المشاركة بواسطة نظام التشغيل وتطبيق الطرف الثالث الذي تختاره؛ لا يصل هذا التطبيق مباشرة إلى الإنترنت لإرسال البيانات</li>
+        </ul>
+
+        <h2>💎 المشتريات داخل التطبيق</h2>
+        <p>يتم تقديم الترقية إلى الإصدار Pro (شراء لمرة واحدة) من خلال أنظمة الشراء داخل التطبيق الأصلية لـ Apple App Store (iOS) و Google Play (Android):</p>
+        <ul>
+            <li>تتم معالجة معاملات الشراء بواسطة Apple أو Google؛ نحن <strong>لا نجمع ولا نخزن</strong> أي معلومات دفع (مثل أرقام بطاقات الائتمان أو عناوين الفوترة)</li>
+            <li>نحن نسجل فقط حالة الفتح (ما إذا تم شراء الإصدار Pro) في التخزين الآمن المحلي لفتح الميزات المقابلة على هذا الجهاز</li>
+            <li>تتحدث عملية استعادة المشتريات (Restore Purchases) مباشرة مع Apple/Google. نحن لا نحصل على معلومات حساب Apple ID أو Google الخاص بك</li>
+        </ul>
+
+        <h2>❌ البيانات التي لا نجمعها</h2>
+        <ul>
+            <li>❌ معلومات التعريف الشخصية (الاسم والبريد الإلكتروني والهاتف وما إلى ذلك)</li>
+            <li>❌ معرفات الجهاز أو معرفات الإعلانات</li>
+            <li>❌ معلومات الموقع</li>
+            <li>❌ إحصائيات الاستخدام أو بيانات التحليلات</li>
+            <li>❌ سجلات الأعطال (ما لم تقم بإرسالها بنشاط عبر قنوات النظام)</li>
+            <li>❌ أي بيانات يتم إرسالها عبر الشبكة</li>
+            <li>❌ معلومات الدفع (بطاقة الائتمان وعنوان الفوترة وما إلى ذلك)</li>
+        </ul>
+
+        <h2>🔐 الأذونات</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+            <tr style="background: #f3f4f6;">
+                <th style="padding: 12px; text-align: right; border: 1px solid #ddd;">الإذن</th>
+                <th style="padding: 12px; text-align: right; border: 1px solid #ddd;">الغرض</th>
+                <th style="padding: 12px; text-align: right; border: 1px solid #ddd;">مطلوب</th>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Face ID / Touch ID / بصمة الإصبع</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">فتح التطبيق بسرعة</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">اختياري</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">مكتبة الصور</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">استيراد الصور/مقاطع الفيديو من الألبوم إلى الملاحظات/سجلات تسجيل الدخول</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">اختياري</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">الكاميرا</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">التقاط الصور/تسجيل مقاطع الفيديو (ميزات تسجيل الدخول والألبوم)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">اختياري</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">الميكروفون</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">التقاط الصوت أثناء تسجيل الفيديو (ميزات تسجيل الدخول والألبوم)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">اختياري</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">التخزين المحلي للملفات</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">حفظ الملاحظات المشفرة والمرفقات والنسخ الاحتياطية</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">مطلوب</td>
+            </tr>
+        </table>
+
+        <h2>🌍 الحقوق الإقليمية للخصوصية</h2>
+        <h3>حقوق مستخدمي الاتحاد الأوروبي (GDPR)</h3>
+        <ul>
+            <li><strong>الحق في الإعلام</strong> - فهم معالجة البيانات من خلال هذه السياسة</li>
+            <li><strong>الحق في الوصول</strong> - الوصول إلى جميع بياناتك في أي وقت</li>
+            <li><strong>الحق في التصحيح</strong> - تحرير وتعديل بياناتك في أي وقت</li>
+            <li><strong>الحق في المحو</strong> - حذف جميع البيانات عن طريق إلغاء تثبيت التطبيق</li>
+            <li><strong>الحق في نقل البيانات</strong> - الحصول على نسخة مشفرة من بياناتك من خلال ميزة التصدير</li>
+        </ul>
+        <h3>حقوق مستخدمي كاليفورنيا (CCPA)</h3>
+        <ul>
+            <li><strong>الحق في المعرفة</strong> - نحن لا نجمع أي معلومات شخصية</li>
+            <li><strong>الحق في الحذف</strong> - قم بإلغاء تثبيت التطبيق لحذف البيانات</li>
+            <li><strong>الحق في الانسحاب</strong> - نحن لا نبيع أي بيانات</li>
+            <li><strong>الحق في عدم التمييز</strong> - جميع الميزات الأساسية متاحة مجانًا</li>
+        </ul>
+
+        <h2>📞 تواصل معنا</h2>
+        <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى التواصل معنا:</p>
+        <p style="text-align: center; font-size: 1.1em; margin: 20px 0;">
+            📧 <a href="mailto:Secure-Space@outlook.com" style="color: #6366f1;">Secure-Space@outlook.com</a>
+        </p>
+
+        <div class="footer">
+            <p>© 2026 Privasa. جميع الحقوق محفوظة.</p>
+            <p>آخر تحديث: 16 أبريل 2026</p>
+        </div>
+    </div>
+</body>
+</html>
