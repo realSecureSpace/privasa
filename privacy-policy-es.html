@@ -19,8 +19,10 @@
         .highlight { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
         .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center; color: #6b7280; }
         .language-selector { text-align: center; margin: 30px 0; padding: 20px; background: #f3f4f6; border-radius: 8px; }
-        .language-selector a { display: inline-block; margin: 5px 8px; padding: 8px 16px; background: #6366f1; color: white; text-decoration: none; border-radius: 20px; font-size: 0.85em; transition: background 0.3s; }
-        .language-selector a:hover { background: #4f46e5; }
+        .language-selector label { display: block; margin-bottom: 10px; font-size: 0.95em; color: #4b5563; }
+        .language-selector select { width: 100%; max-width: 320px; padding: 10px 14px; font-size: 1em; border: 1px solid #d1d5db; border-radius: 8px; background: #fff; color: #374151; cursor: pointer; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%236b7280' viewBox='0 0 16 16'%3E%3Cpath d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 36px; }
+        .language-selector select:focus { outline: none; border-color: #6366f1; box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15); }
+
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 1.5em; } }
     </style>
 </head>
@@ -30,20 +32,24 @@
         <p class="subtitle"><strong>Privasa - Diario Privado</strong></p>
         <p class="date">Fecha de vigencia: 7 de abril de 2026 | Última actualización: 16 de abril de 2026</p>
 
-        <div class="language-selector">
-            <p>🌐 Seleccionar idioma:</p>
-            <a href="privacy-policy.html">English</a>
-            <a href="privacy-policy-zh.html">中文</a>
-            <a href="privacy-policy-ja.html">日本語</a>
-            <a href="privacy-policy-ko.html">한국어</a>
-            <a href="privacy-policy-fr.html">Français</a>
-            <a href="privacy-policy-de.html">Deutsch</a>
-            <a href="privacy-policy-es.html">Español</a>
-            <a href="privacy-policy-ru.html">Русский</a>
-            <a href="privacy-policy-pt.html">Português</a>
-            <a href="privacy-policy-ar.html">العربية</a>
-            <a href="privacy-policy-hi.html">हिन्दी</a>
-            <a href="privacy-policy-fa.html">فارسی</a>
+                <div class="language-selector">
+            <label for="lang-select">🌐 Seleccionar idioma:</label>
+            <select id="lang-select" onchange="if(this.value) location.href=this.value;">
+                <option value="privacy-policy.html">English</option>
+                <option value="privacy-policy-zh.html">中文</option>
+                <option value="privacy-policy-zh-hant.html">中文（繁體）</option>
+                <option value="privacy-policy-ja.html">日本語</option>
+                <option value="privacy-policy-ko.html">한국어</option>
+                <option value="privacy-policy-fr.html">Français</option>
+                <option value="privacy-policy-de.html">Deutsch</option>
+                <option value="privacy-policy-es.html" selected>Español</option>
+                <option value="privacy-policy-ru.html">Русский</option>
+                <option value="privacy-policy-pt.html">Português</option>
+                <option value="privacy-policy-ar.html">العربية</option>
+                <option value="privacy-policy-hi.html">हिन्दी</option>
+                <option value="privacy-policy-fa.html">فارسی</option>
+                <option value="privacy-policy-uk.html">Українська</option>
+            </select>
         </div>
 
         <h2>📱 Nuestro Compromiso de Privacidad</h2>
@@ -87,7 +93,7 @@
         <h2>📤 Exportar, Importar y Compartir</h2>
         <h3>Exportación Cifrada y Copia de Seguridad</h3>
         <ul>
-            <li>Puede exportar sus datos como un archivo de copia de seguridad ZIP cifrado</li>
+            <li>Puede exportar sus datos como un archivo de copia de seguridad ENC cifrado</li>
             <li>Los archivos exportados se cifran con AES-256-GCM utilizando la contraseña de su cuenta actual</li>
             <li>Los archivos exportados se guardan en la ubicación que elija en su dispositivo (por ejemplo, administrador de archivos)</li>
         </ul>
