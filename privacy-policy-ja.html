@@ -55,8 +55,15 @@
         <h2>📱 プライバシーに対する約束</h2>
         <h3>ゼロデータ収集</h3>
         <p>本アプリケーションは、ユーザーデータを<span class="highlight">外部サーバーに収集、送信、保存</span>することは一切ありません。すべてのデータはお使いの端末にローカルに保存されます。</p>
-        <h3>ゼロネットワーク接続</h3>
-        <p>本アプリケーションはインターネット権限を要求せず、インターネットにアクセスできないため、ネットワーク経由でのデータ漏洩の可能性を根本的に排除しています。すべての機能（メモ、チェックイン、アルバム、ToDo、カレンダー、ファイル管理など）は完全にオフラインで動作します。</p>
+        <h3>ネットワーク使用の説明</h3>
+        <p>本アプリは以下の特定のシナリオでネットワーク接続を必要とする場合がありますが、<strong>個人データを送信することはありません</strong>：</p>
+        <ul>
+            <li><strong>アプリ内課金</strong> - Proバージョンの購入時にApple App Store/Google Playサーバーと通信して購入状態を確認</li>
+            <li><strong>リッチテキストリンク</strong> - メモエディタでウェブリンクをクリックした際にシステムブラウザで開く</li>
+            <li><strong>メディア再生</strong> - ネットワークビデオリンクを再生する場合（オプション機能）</li>
+            <li><strong>システム共有</strong> - システム共有パネルを使用する際にOSとサードパーティアプリが処理</li>
+        </ul>
+        <p>メモ内容、添付ファイル、チェックイン記録などの個人データは<strong>常にローカルに保存され、サーバーにアップロードされることはありません</strong>。</p>
 
         <h2>🛡️ データの保存と暗号化</h2>
         <h3>ローカル保存</h3>
@@ -160,6 +167,11 @@
                 <td style="padding: 12px; border: 1px solid #ddd;">ローカルファイルストレージ</td>
                 <td style="padding: 12px; border: 1px solid #ddd;">暗号化メモ、添付ファイル、バックアップの保存</td>
                 <td style="padding: 12px; border: 1px solid #ddd;">必須</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">ネットワークアクセス</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">アプリ内課金の検証、ウェブリンクの表示、ネットワークビデオの再生（個人データは送信されません）</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">オプション</td>
             </tr>
         </table>
 

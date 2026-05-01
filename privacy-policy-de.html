@@ -55,8 +55,14 @@
         <h2>📱 Unser Datenschutzversprechen</h2>
         <h3>Null Datenerhebung</h3>
         <p>Diese Anwendung <span class="highlight">erhebt, überträgt oder speichert</span> keine Benutzerdaten auf externen Servern. Alle Daten werden lokal auf Ihrem Gerät gespeichert.</p>
-        <h3>Null Netzwerkverbindung</h3>
-        <p>Diese Anwendung beantragt keine Internetberechtigung und kann nicht auf das Internet zugreifen, wodurch die Möglichkeit eines Datenlecks über das Netzwerk fundamental ausgeschlossen wird. Alle Funktionen (Notizen, Check-in, Alben, To-Dos, Kalender, Dateiverwaltung usw.) funktionieren vollständig offline.</p>
+        <h3>Netzwerknutzung</h3>
+        <p>Die Kernfunktionen dieser Anwendung funktionieren vollständig offline, aber es gibt einige spezifische Szenarien, die Netzwerkzugriff erfordern:</p>
+        <ul>
+            <li><strong>In-App-Käufe:</strong> Beim Kauf der Pro-Version kommuniziert die App mit den Servern von Apple (iOS) oder Google (Android), um Transaktionen abzuwickeln und Kaufstatus zu verifizieren</li>
+            <li><strong>Rich-Text-Links:</strong> In Notizen eingebettete Hyperlinks können bei Antippen in Ihrem Standard-Webbrowser geöffnet werden</li>
+            <li><strong>Netzwerk-Videowiedergabe:</strong> Wenn Sie Netzwerk-Video-URLs in Notizen speichern, kann die App diese Videos optional direkt aus dem Netzwerk abspielen (funktioniert nur, wenn Sie den Link anklicken)</li>
+            <li><strong>Systemfreigabe:</strong> Beim Teilen von Inhalten über die native Systemfreigabe werden die Daten vom Betriebssystem und der von Ihnen gewählten Drittanbieter-App verarbeitet</li>
+        </ul>
 
         <h2>🛡️ Datenspeicherung und Verschlüsselung</h2>
         <h3>Lokale Speicherung</h3>
@@ -158,6 +164,11 @@
                 <td style="padding: 12px; border: 1px solid #ddd;">Lokaler Dateispeicher</td>
                 <td style="padding: 12px; border: 1px solid #ddd;">Verschlüsselte Notizen, Anhänge und Backups speichern</td>
                 <td style="padding: 12px; border: 1px solid #ddd;">Erforderlich</td>
+            </tr>
+            <tr style="background: #fafafa;">
+                <td style="padding: 12px; border: 1px solid #ddd;">Netzwerkzugriff</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">In-App-Käufe (Apple/Google-Server), optionale Netzwerk-Videowiedergabe</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">Optional</td>
             </tr>
         </table>
 
